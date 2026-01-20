@@ -1,8 +1,9 @@
+// Practice problem from Codecademy's Swift class
+
 var englishText = "this is a secret message"
 
 var secretMessage = ".... --- .-- -.. -.--   .--. .- .-. - -. . .-."
 
-// Add your code below 🤫
 
 var letterToMorse = [
   "a" : ".-",
@@ -78,7 +79,7 @@ for charAsChar in secretMessage {
 }
 
 message += String(morseToLetter[currLetter]!)
-//print(message)
+print(message)
 
 var asMorseCode: String = "";
 var addMe:String        = "";
